@@ -1,8 +1,4 @@
-define(function(require) {
-
-    var React = require('react'),
-    ReactBoostrap = require('reactBootstrap');
-
+define(["react", "reactBootstrap"], function(React, ReactBoostrap) {
 
     function App() {
         var ButtonToolbar = ReactBoostrap.ButtonToolbar,
